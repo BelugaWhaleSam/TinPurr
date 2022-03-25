@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TinPurr</title>
+
+    <!-- bootstrap v4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- external css -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/239833f6bc.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section class="colored-section" id="title">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">tinpurr</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar-toggle-1"
+            aria-controls="navbar-toggle-1"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggle-1">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div>
+              <h1 class="big-heading">Meet new and interesting cats nearby.</h1>
+              <button type="button" class="btn btn-dark btn-lg download-button">
+                <i class="fa-brands fa-apple"></i> Download
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-light btn-lg download-button"
+              >
+                <i class="fa-brands fa-google-play"></i> Download
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div>
+              <img
+                class="iphone-cat"
+                src="./static/teender.webp"
+                alt="iphone-mockup"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nav Bar -->
+    </section>
+
+    <!-- Features -->
+
+    <section class="white-section" id="features">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 feature-box">
+            <i class="icon fa-solid fa-circle-check fa-4x"></i>
+            <h3 class="feature-title">Easy to use.</h3>
+            <p>So easy to use, even your cats could do it.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-12 feature-box">
+            <i class="icon fa-solid fa-bullseye fa-4x"></i>
+            <h3 class="feature-title">Elite Clientele</h3>
+            <p>We have all the cats, the greatest cats.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-12 feature-box">
+            <i class="icon fa-solid fa-face-grin-hearts fa-4x"></i>
+            <h3 class="feature-title">Guaranteed to work.</h3>
+            <p>Find the love of your cat's life or your money back.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section class="colored-section" id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">
+              I no longer have to sniff other cats for love. I've found the
+              hottest Persian on TinPurr. Meow.
+            </h2>
+            <img
+              class="test-img"
+              src="./static/catimage.jpeg"
+              alt="dog-profile"
+            />
+            <em>Snowy, India</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">
+              My cat used to be so lonely, but with TinPurr's help, they've
+              found the love of their life. I think.
+            </h2>
+            <img class="test-img" src="./static/coff.jpeg" alt="lady-profile" />
+            <em>Coffee, India</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section class="colored-section" id="press">
+      <img
+        class="press-img"
+        class=""
+        src="images/TechCrunch.png"
+        alt="tc-logo"
+      />
+      <img class="press-img" src="images/tnw.png" alt="tnw-logo" />
+      <img
+        class="press-img"
+        src="images/bizinsider.png"
+        alt="biz-insider-logo"
+      />
+      <img class="press-img" src="images/mashable.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section class="white-section" id="pricing">
+      <h2 class="section-heading">A Plan for Every Cat's Needs</h2>
+      <p>Simple and affordable price plans for your and your cat.</p>
+
+      <div class="row">
+        <div class="pricing-col col-lg-4 col-md-6">
+          <div class="h-100 card">
+            <div class="card-header">
+              <h3>Sphynx</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">Free</h2>
+              <p>5 Matches Per Day</p>
+              <p>10 Messages Per Day</p>
+              <p class="pb-5">Unlimited App Usage</p>
+              <button
+                type="button"
+                class="btn btn-block btn-lg btn-outline-dark"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-col col-lg-4 col-md-6">
+          <div class="h-100 card">
+            <div class="card-header">
+              <h3>Persian</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$49 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p class="pb-5">Unlimited App Usage</p>
+              <button type="button" class="btn btn-block btn-lg btn-dark">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-col col-lg-4">
+          <div class="h-100 card">
+            <div class="card-header">
+              <h3>Ragdoll</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$99 / mo</h2>
+              <p>Pirority Listing</p>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p class="pb-1">Unlimited App Usage</p>
+              <button type="button" class="btn btn-block btn-lg btn-dark">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section class="colored-section" id="cta">
+      <div class="container-fluid">
+        <h3 class="big-heading">
+          Find the True Love of Your Cat's Life Today.
+        </h3>
+        <button type="button" class="btn btn-dark btn-lg download-button-last">
+          <i class="fa-brands fa-apple"></i> Download
+        </button>
+        <button type="button" class="btn btn-light btn-lg download-button-last">
+          <i class="fa-brands fa-google-play"></i> Download
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="white-section" id="footer">
+      <div class="container-fluid">
+        <a href="https://www.facebook.com/"
+          ><i class="social-icon fa-brands fa-facebook fa-2x icon-si"></i
+        ></a>
+        <a href="https://www.instagram.com/"
+          ><i class="social-icon fa-brands fa-instagram fa-2x icon-si"></i
+        ></a>
+        <a href="https://twitter.com/"
+          ><i class="social-icon fa-brands fa-twitter fa-2x icon-si"></i
+        ></a>
+        <a href="https://www.reddit.com/"
+          ><i class="social-icon fa-brands fa-reddit fa-2x icon-si"></i
+        ></a>
+        <a href="https://www.youtube.com/"
+          ><i class="socail-icon fa-brands fa-youtube fa-2x icon-si"></i
+        ></a>
+        <p style="color: black">© Copyright 2018 TinPurr</p>
+      </div>
+    </footer>
+  </body>
+</html>
